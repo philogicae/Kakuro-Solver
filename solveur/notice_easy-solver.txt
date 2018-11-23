@@ -1,0 +1,48 @@
+* * * * * * * * * * * La Notice du Solver * * * * * * * * * * *
+
+    COMMANDES de easy-solver.sh :
+
+        help -> Affiche la notice
+
+        list -> Affiche la liste des grilles disponibles
+
+        numgrid -algo =heuristic -> Résolution de grilles
+
+        numgrid -algo =heuristic print -> Résout et affiche
+
+    DETAILS :
+        Les résultats sont toujours automatiquement
+        sauvegardés dans le dossier "solutions".
+        Le 4ème argument falcultatif "print" permet d'afficher
+        aussi le résultat dans la console.
+
+    numgrid : L'indice d'une grille dans le répertoire
+        A remplacer par "all" pour résoudre toutes les grilles
+
+    -algo : Le choix d'un algorithme
+        -bt     ->      BackTracking
+        -fc     ->      ForwardChecking
+        -fcfa   ->      ForwardChecking_FindAll
+        -all    ->      Tous les algorithmes
+
+    =heuristic : Le choix d'une heuristique
+        =def    ->      Default
+        =dod    ->      DomOverDeg
+        =ddod   ->      Dynamic_DomOverDeg
+        =cf     ->      CrossingFirst
+        =dcf    ->      Dynamic_CrossingFirst
+        =fs     ->      FillSum
+        =all    ->      Toutes les heuristiques
+
+    EXEMPLES :
+
+    1) Résoudre la 3ème grille avec BackTracking et DomOverDeg
+
+        ./easy-solver.sh 3 -bt =dod
+
+    2) Résoudre toutes les grilles avec toutes les
+    combinaisons d'algorithmes et d'heuristiques :
+
+        ./easy-solver.sh all -all =all
+    
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

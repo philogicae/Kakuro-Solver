@@ -1,0 +1,85 @@
+
+Pre-filtrage : OK
+Algorithme : ForwardChecking
+Heuristique : Default
+SOLUTION TROUVEE: [162 noeuds] [973 tests]
+ X0 = 2
+ X1 = 1
+ X2 = 1
+ X3 = 3
+ X4 = 1
+ X5 = 2
+ X6 = 3
+ X7 = 4
+ X8 = 2
+ X9 = 6
+ X10 = 5
+ X11 = 7
+ X12 = 3
+ X13 = 4
+ X14 = 2
+ X15 = 5
+ X16 = 3
+ X17 = 1
+ X18 = 1
+ X19 = 3
+ X20 = 3
+ X21 = 2
+ X22 = 4
+ X23 = 2
+ X24 = 1
+ X25 = 3
+ X26 = 2
+ X27 = 4
+ X28 = 1
+ X29 = 2
+ X30 = 3
+ X31 = 1
+ X32 = 4
+ X33 = 5
+ X34 = 2
+ X35 = 2
+ X36 = 3
+ X37 = 1
+ X38 = 2
+ X39 = 3
+ X40 = 7
+ X41 = 1
+ X42 = 1
+ X43 = 2
+ X44 = 3
+ X45 = 4
+ X46 = 1
+ X47 = 2
+ X48 = 3
+ X49 = 1
+ X50 = 5
+ X51 = 2
+ X52 = 3
+ X53 = 1
+ X54 = 2
+ X55 = 2
+ X56 = 4
+ X57 = 2
+ X58 = 3
+ X59 = 1
+ X60 = 3
+ X61 = 1
+ X62 = 6
+ X63 = 2
+ X64 = 3
+ X65 = 1
+ X66 = 2
+ X67 = 3
+ X68 = 5
+ X69 = 4
+ X70 = 7
+ X71 = 1
+ X72 = 2
+ X73 = 1
+ X74 = 4
+ X75 = 2
+ X76 = 3
+VERIFICATION DE LA SOLUTION : OK !
+
+Time Taken 0.001925
